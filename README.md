@@ -1,5 +1,10 @@
 # deploy
-项目计划实现一个能够将本地项目压缩上传然后构建容器的工具  
+项目计划实现一个能够将本地项目压缩上传然后构建容器的工具 
+## prerequisite
+需要在上传服务器上安装docker并启动docker daemon进程  
+确保ssh用户具备使用docker的权限  
+在上传服务器上创建/vagrant  
+将launch.sh上传至该目录下
 ## 使用方法
 在config.json配置项目的基本信息  
 在server.json配置上传服务器的账户信息  
